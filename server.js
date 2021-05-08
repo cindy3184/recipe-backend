@@ -4,6 +4,7 @@ const morgan = require('morgan');
 
 const app = express();
 
+require('dotenv').config();
 require('./config/database');
 
 
